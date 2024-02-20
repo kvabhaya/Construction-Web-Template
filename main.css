@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-outer {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://www.ltimindtree.com/wp-content/uploads/2022/02/Engineering-Construction-Industry-banner-.jpg');
+    background-size: cover;
+}
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.search-box {
+    width: 250px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid ghostwhite;
+    margin-left: 80px;
+
+}
+.search-box input[type="search"] {
+    margin: 40px 0;
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    color: ghostwhite;
+}
+.search-box input[type="search"]::placeholder{
+    color: ghostwhite;
+    margin-left: 5px;
+}
+.search-box input[type="search"]:focus {
+    border-color: ghostwhite;
+    outline: none;
+}
+.fa-magnifying-glass{
+    color: ghostwhite;
+}
+.nav-container{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.nav-list li{
+    font-family: "Anta", sans-serif;
+    font-size: 20px;
+    margin-right: 30px;
+    color: ghostwhite;
+    font-weight: 400;
+}
+.nav-list li:last-child{
+    margin-right: 80px;
+}
+
+.nav-list li:hover{
+    cursor: pointer;
+    color: #F7AC19;
+
+}
+.topic{
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.topic p{
+    font-family: "Anta", sans-serif;
+    font-size: 70px;
+    color: #F7AC19;
+    font-weight: 700;
+    margin-left: 80px;
+}
+.content{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box{
+    width: 27%;
+    height: 250px;
+    background-color: rgba(50, 53, 57, 0.5);
+}
+.box-1{
+    margin-left: 80px;
+}
+.box-3{
+    margin-right: 80px;
+}
+.heading-clipart{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.heading {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;   
+}
+.heading h1{
+    color: ghostwhite;
+    text-transform: uppercase;
+    font-family: "Anta", sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.clipart {
+    flex: 1;
+    color: ghostwhite;
+    font-size: 80px;
+    color: #F7AC19;
+    margin-top: 10px;
+
+}
+.para {
+    color: ghostwhite;
+    font-family: "Anta", sans-serif;
+    font-size: 12px;
+    padding-left: 30px;
+    margin: 15px 0;
+}
+.button{
+    border: 3px solid #F7AC19;
+    width:fit-content;
+    padding: 10px 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: "Anta", sans-serif;
+    color: ghostwhite;
+    font-size: 16px;
+    font-weight: 600;
+}
+.button:hover {
+    border: none;
+}
