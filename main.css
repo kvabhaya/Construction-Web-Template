@@ -4,7 +4,7 @@
 }
 .bg-outer {
     width: 100%;
-    height: 100%;
+    height: 110vh;
     background-image: url('https://www.ltimindtree.com/wp-content/uploads/2022/02/Engineering-Construction-Industry-banner-.jpg');
     background-size: cover;
 }
@@ -75,7 +75,6 @@
 .topic{
     width: 100%;
     height: 300px;
-    margin-top: 20px;
 }
 
 .topic p{
@@ -84,6 +83,7 @@
     color: #F7AC19;
     font-weight: 700;
     margin-left: 80px;
+    padding-top: 20px;
 }
 .content{
     width: 100%;
