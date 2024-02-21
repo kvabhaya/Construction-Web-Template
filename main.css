@@ -92,15 +92,15 @@
     align-items: center;
     justify-content: space-between;
 }
-.box{
+.box-button{
     width: 27%;
     height: 250px;
     background-color: rgba(50, 53, 57, 0.5);
 }
-.box-1{
+.box-button-1{
     margin-left: 80px;
 }
-.box-3{
+.box-button-3{
     margin-right: 80px;
 }
 .heading-clipart{
@@ -259,4 +259,176 @@
 }
 .block-outer {
     width: 100%;
+    height: 100%;
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+}
+.block-inner-1{
+    margin: 5px 10px 5px 100px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.inner-para-1 h2{
+    font-family: "Anta", sans-serif;
+    text-align: left;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 10px 15px;
+}
+.inner-para-1 p{
+    font-family: "Anta", sans-serif;
+    text-align: justify;
+    line-height: 24px;
+    word-spacing: 3px;
+    margin: 5px 100px 5px 10px;
+}
+.inner-para-1 img {
+    width: 290px;
+    height: 260px;
+}
+.block-inner-2{
+    margin: 5px 100px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.building-img{
+    display: flex;
+    justify-content: flex-end;
+}
+.inner-para-2 img {
+    width: 350px;
+    height: 230px;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+.inner-para-2 h2{
+    font-family: "Anta", sans-serif;
+    text-align: left;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 10px 15px;
+}
+
+.list {
+    display: flex;
+    margin: 10px 10px 0 15px;
+}
+
+.list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.tick li{
+    color: #F7AC19;
+    line-height: 25px;
+    font-weight: 600;
+}
+.sen li{
+    font-family: "Anta", sans-serif;
+    line-height: 22.5px;
+    margin: 0 0 0 5px;
+}
+.block-outer-2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inner-topic-para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inner-topic-para h1{
+    font-family: "Anta", sans-serif;
+    margin-top: 50px;
+}
+.inner-topic-para p{
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    margin: 20px 260px;
+    line-height: 22px;
+}
+.inner-content-1{
+    width: 100%;
+    height: 100%;
+    margin: 10px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box-upper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.box-up {
+    width: 27%;
+    height: 350px;
+    display: block;
+    margin-bottom: 15px;
+}
+.box-up:nth-child(3n) {margin-right: 80px;}
+.box-up:first-child {margin-left: 80px;}
+.box-up:nth-child(4n) {margin-left: 80px;}
+.box-up:last-child {margin-right: 80px;}
+.box-1, .box-3{
+    background-color: #F7AC19;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-1 h2, .box-3 h2{
+    font-family: "Anta", sans-serif;
+    color: ghostwhite;
+    margin: 20px 0;
+}
+.box-1 p, .box-3 p{
+    font-family: "Anta", sans-serif;
+    color: ghostwhite;
+    text-align: center;
+    margin: 0 20px;
+    line-height: 20px;
+}
+.box-2, .box-4, .box-6{
+    display: flex;
+    justify-content: center;
+}
+.box-2 img, .box-4 img, .box-6 img{
+    background-size: cover;
+}
+.box-5{
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-5 h2{
+    font-family: "Anta", sans-serif;
+    color: black;
+    margin: 20px 0;
+}
+.box-5 p{
+    font-family: "Anta", sans-serif;
+    color: black;
+    text-align: center;
+    margin: 0 20px;
+    line-height: 20px;
 }
