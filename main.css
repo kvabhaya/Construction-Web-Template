@@ -469,3 +469,178 @@
     font-size: 20px;
     color: ghostwhite;
 }
+/* .classification{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}
+.sub-topic-head{
+    margin: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-topic{
+    display: flex;
+    padding: 10px 130px;
+    border: 1px solid green;
+}
+.sub-topic:hover{
+    cursor: pointer;
+}
+.sub-topic:active{
+    background-color: #F7AC19;
+}
+.sub-topic h2{
+    font-family: "Anta", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 20px;
+}
+.sub-topic h2:active{
+    color: ghostwhite;
+} */
+/* add more css styles to classification */
+
+.price-table-outer{
+    width: 100%;
+    height: 100%;
+    margin: 0 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.price-table-outer-para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Anta", sans-serif;
+}
+.price-table-outer-para h2{
+    margin: 10px 0;
+}
+.price-table-outer-para p{
+    text-align: center;
+    margin: 20px 420px;
+}
+.price-table-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 80px;
+}
+.price-table-inner-box-1{
+    width: 60%;
+    height: 500px;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+.table-inner {
+    width: 60%;
+    height: 100%;
+    margin: 0;
+}
+.table-inner-1{
+    margin: 0 20px 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table-inner-2{
+    margin: 0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table-inner-1-inner{
+    width:100%;
+    height: 40%;
+    background-color: #FCDDA1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.table-inner-1-inner h2{
+    font-family: "Anta", sans-serif;
+}
+.table-inner-1-inner h1{
+    font-family: "Anta", sans-serif;
+    font-size: 70px;
+    margin: 10px 0;
+}
+.table-inner-1-detail{
+    font-family: "Anta", sans-serif;
+    line-height: 30px;
+    margin: 15px 0;
+}
+.table-inner-2-inner{
+    width:100%;
+    height: 40%;
+    color: ghostwhite;
+    background-color: #F7AC19;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.table-inner-2-inner h2{
+    font-family: "Anta", sans-serif;
+}
+.table-inner-2-inner h1{
+    font-family: "Anta", sans-serif;
+    font-size: 70px;
+    margin: 10px 0;
+}
+.table-inner-2-detail{
+    font-family: "Anta", sans-serif;
+    line-height: 30px;
+    margin: 15px 0;
+}
+.table-inner-1-button{
+    width: 150px;
+    height: 50px;
+    background-color: #FCDDA1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.table-inner-1-button:hover{
+    background-color: #F7AC19;
+}
+.table-inner-1-button h1{
+    color: black;
+    font-size: 20px;
+    font-family: "Anta", sans-serif;
+}
+.table-inner-2-button{
+    width: 150px;
+    height: 50px;
+    background-color: #F7AC19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.table-inner-2-button:hover{
+    background-color: #9e9d9c;
+}
+.table-inner-2-button h1{
+    color: ghostwhite;
+    font-size: 20px;
+    font-family: "Anta", sans-serif;
+}
+.price-table-inner-box-2{
+    background-image: url("images/pexels-photo-3760529.jpeg");
+    background-size: cover;
+    flex: 1;
+    width: 40%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 80px 0 20px;
+}
