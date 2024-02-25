@@ -203,8 +203,12 @@
     font-weight: 500;
     text-align: center; 
 }
-.signature{
-    background-image: url("images/Chris_Hemsworth_Signature.png");
+.signature img{
+    margin: 15px 0;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    z-index: 1;
 }
 .instruction{
     flex: 1;
@@ -452,7 +456,7 @@
     background-image: url("images/1businesswoman-working-.jpg");
     width: 100%;
     height: 300px;
-    margin: 50px 0;
+    margin: 50px 0 0 0;
     background-size: cover;
 }
 .count-inner-main {
@@ -485,42 +489,81 @@
     font-size: 20px;
     color: ghostwhite;
 }
-/* .classification{
+.classification{
     width: 100%;
     height: 100%;
-    border: 1px solid red;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: ghostwhite;
 }
 .sub-topic-head{
     margin: 20px 80px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .sub-topic{
-    display: flex;
-    padding: 10px 130px;
-    border: 1px solid green;
-}
-.sub-topic:hover{
+    align-items: center;
+    font-family: "Anta", sans-serif;
+    padding:10px 110px;
     cursor: pointer;
 }
-.sub-topic:active{
+.sub-topic-1{
     background-color: #F7AC19;
+    color: ghostwhite;
 }
-.sub-topic h2{
+.sub-topic-2:hover,
+.sub-topic-3:hover{
+    color: black;
+    background-color: ghostwhite;
+}
+.sub-topic-2:active,
+.sub-topic-3:active{
+    background-color: #F7AC19;
+    color: ghostwhite;
+}
+.classification-inner{
+    display: flex;
+}
+.classification-inner-image{
+    align-items: flex-start;
+}
+.classification-inner-image img{
+    width: 382px;
+    height: 400px;
+    margin: 10px 20px 10px 105px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.classification-inner-details{
+    width: 60%;
+    height: 100%;
+    flex: 1;
+    margin: 10px 100px 10px 20px;
     font-family: "Anta", sans-serif;
-    color: rgb(0, 0, 0);
-    font-weight: 600;
+    align-items: flex-start;
+}
+.classification-inner-details h1{
+    margin: 0 0 20px 0;
     font-size: 20px;
 }
-.sub-topic h2:active{
-    color: ghostwhite;
-} */
-/* add more css styles to classification */
-
+.classification-inner-details p{
+    margin: 0 150px 20px 0;
+    color: gray;
+    line-height: 22px;
+}
+.classification-inner-details ul{
+    margin: 20px 0 0 20px;
+    line-height: 30px;
+}
 .price-table-outer{
     width: 100%;
     height: 100%;
-    margin: 0 0 50px 0;
+    margin: 30px 0 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -905,4 +948,10 @@
 }
 .contact-box-1 i, .contact-box-3 i{
     color: #F7AC19;
+}
+.contact p{
+    margin: 30px 280px 0 280px;
+    text-align: center;
+    color: ghostwhite;
+    font-size: 20px;
 }
